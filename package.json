@@ -1,0 +1,10 @@
+{
+  "name": "advanced-react",
+  "version": "0.0.1",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "https://github.com/TomasOtano25/advanced-react.git",
+  "author": "Tomas Garcia Otaño <tomasotano25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
