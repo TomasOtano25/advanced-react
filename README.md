@@ -12,6 +12,9 @@ npm install ejs
 yarn add --dev prettier eslint-plugin-prettier
 npm i -g babel-cli
 yarn add babel-cli babel-preset-react babel-preset-env babel-preset-stage-2
+yarn add react react-dom webpack
+yarn add babel-loader
+yarn add babel-polyfill
 ```
 
 ## Package.json
