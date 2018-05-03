@@ -6,9 +6,13 @@
   "repository": "https://github.com/TomasOtano25/advanced-react.git",
   "author": "Tomas Garcia Otaño <tomasotano25@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon lib/server.js"
+  },
   "dependencies": {
     "ejs": "^2.5.9",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
