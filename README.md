@@ -19,6 +19,8 @@ yarn add --dev jest
 yarn add --dev eslint-plugin-jest
 yarn add --dev eslint eslint-plugin-jest
 yarn add styled-components prop-types
+yarn add eslint-config-react-app --dev
+yarn add  eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y --dev
 ```
 
 ## Package.json
