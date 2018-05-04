@@ -16,6 +16,8 @@ yarn add react react-dom webpack
 yarn add babel-loader
 yarn add babel-polyfill
 yarn add --dev jest
+yarn add --dev eslint-plugin-jest
+yarn add --dev eslint eslint-plugin-jest
 ```
 
 ## Package.json
