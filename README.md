@@ -1,11 +1,11 @@
 ## Extension
 
 - https://github.com/yannickcr/eslint-plugin-react
-- 
+-
 
 
 ```bash
-npm install eslint --save-dev 
+npm install eslint --save-dev
 npm install eslint-plugin-react --save-dev
 npm install express --save
 npm install ejs
@@ -56,3 +56,9 @@ La funcion del `git show` es mostrar los cambios del commit anterior.
 ```bash
 wget -O lib/testData.json https://gist.githubusercontent.com/samerbuna/5b53056342720b79ab19fc75629a9c8f/raw/f80d3d219d5913e0b36af1fcbb79c8721666fd49/react-blog-mockup-data.json
 ```
+
+## Probar en el navegador el rendimiento
+
+Disable cache
+
+Performance -> 20x slowdown
