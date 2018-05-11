@@ -4,7 +4,7 @@
   "description": "Proyecto Isomorphic React",
   "main": "lib/server.js",
   "scripts": {
-    "dev": "NODE_PATH=./lib&&  nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./lib&&  nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watchAll",
     "lint": "eslint ."
@@ -12,6 +12,7 @@
   "author": "Tomas Garia Otaño (tomasotano25@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
