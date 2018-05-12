@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "enzyme": "^3.3.0",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.7.0",
@@ -48,6 +49,10 @@
     }
   },
   "babel": {
-    "presets": ["react", "env", "stage-2"]
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
   }
 }
