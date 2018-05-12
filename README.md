@@ -19,6 +19,7 @@ yarn add --dev jest
 yarn add --dev eslint-plugin-jest
 yarn add --dev eslint eslint-plugin-jest
 yarn add styled-components prop-types
+yarn upgrade-interactive
 ```
 
 ## Package.json
