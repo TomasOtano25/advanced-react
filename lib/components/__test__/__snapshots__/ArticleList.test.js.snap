@@ -10,10 +10,7 @@ exports[`ArticleList renders conrrectly 1`] = `
     />
     <div
       className="sc-htpNat csdQsP"
-    >
-      dataDisplay(
-      )
-    </div>
+    />
     <a
       className="sc-bxivhb hMFYqw"
       href={undefined}
@@ -33,10 +30,7 @@ exports[`ArticleList renders conrrectly 1`] = `
     />
     <div
       className="sc-htpNat csdQsP"
-    >
-      dataDisplay(
-      )
-    </div>
+    />
     <a
       className="sc-bxivhb hMFYqw"
       href={undefined}
