@@ -1,46 +1,182 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList renders conrrectly 1`] = `
-<div>
-  <div
-    className="sc-bdVaJa bcezof"
-  >
-    <h2
-      className="sc-bwzfXH hZEuEv"
-    />
-    <div
-      className="sc-htpNat csdQsP"
-    />
-    <a
-      className="sc-bxivhb hMFYqw"
-      href={undefined}
-    >
-      undefined undefined
-    </a>
-    <div
-      className="sc-ifAKCX kjQGGW"
-    />
-    <br />
-  </div>
-  <div
-    className="sc-bdVaJa bcezof"
-  >
-    <h2
-      className="sc-bwzfXH hZEuEv"
-    />
-    <div
-      className="sc-htpNat csdQsP"
-    />
-    <a
-      className="sc-bxivhb hMFYqw"
-      href={undefined}
-    >
-      undefined undefined
-    </a>
-    <div
-      className="sc-ifAKCX kjQGGW"
-    />
-    <br />
-  </div>
-</div>
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArticleList
+    articles={
+      Object {
+        "a": Object {
+          "authorId": "a",
+          "body": "a",
+          "date": "a",
+          "id": "a",
+          "title": "a",
+        },
+        "b": Object {
+          "authorId": "b",
+          "body": "b",
+          "date": "a",
+          "id": "b",
+          "title": "b",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Article
+          article={
+            Object {
+              "authorId": "a",
+              "body": "a",
+              "date": "a",
+              "id": "a",
+              "title": "a",
+            }
+          }
+        />,
+        <Article
+          article={
+            Object {
+              "authorId": "b",
+              "body": "b",
+              "date": "a",
+              "id": "b",
+              "title": "b",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "a",
+        "nodeType": "function",
+        "props": Object {
+          "article": Object {
+            "authorId": "a",
+            "body": "a",
+            "date": "a",
+            "id": "a",
+            "title": "a",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "b",
+        "nodeType": "function",
+        "props": Object {
+          "article": Object {
+            "authorId": "b",
+            "body": "b",
+            "date": "a",
+            "id": "b",
+            "title": "b",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Article
+            article={
+              Object {
+                "authorId": "a",
+                "body": "a",
+                "date": "a",
+                "id": "a",
+                "title": "a",
+              }
+            }
+          />,
+          <Article
+            article={
+              Object {
+                "authorId": "b",
+                "body": "b",
+                "date": "a",
+                "id": "b",
+                "title": "b",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "a",
+          "nodeType": "function",
+          "props": Object {
+            "article": Object {
+              "authorId": "a",
+              "body": "a",
+              "date": "a",
+              "id": "a",
+              "title": "a",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "b",
+          "nodeType": "function",
+          "props": Object {
+            "article": Object {
+              "authorId": "b",
+              "body": "b",
+              "date": "a",
+              "id": "b",
+              "title": "b",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

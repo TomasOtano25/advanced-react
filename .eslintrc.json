@@ -28,6 +28,7 @@
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
     "linebreak-style": 0,
-    "function-paren-newline": 0
+    "function-paren-newline": 0,
+    "object-curly-newline": 0
   }
 }
