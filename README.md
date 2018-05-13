@@ -20,6 +20,7 @@ yarn add --dev eslint-plugin-jest
 yarn add --dev eslint eslint-plugin-jest
 yarn add styled-components prop-types
 yarn upgrade-interactive
+yarn add --dev react-addons-perf
 ```
 
 ## Package.json
@@ -55,3 +56,9 @@ La funcion del `git show` es mostrar los cambios del commit anterior.
 ```bash
 wget -O lib/testData.json https://gist.githubusercontent.com/samerbuna/5b53056342720b79ab19fc75629a9c8f/raw/f80d3d219d5913e0b36af1fcbb79c8721666fd49/react-blog-mockup-data.json
 ```
+
+## Para medir el funcionamiento de react 
+
+Con performance
+
+`url/?react_perf`
