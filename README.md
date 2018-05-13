@@ -62,3 +62,5 @@ wget -O lib/testData.json https://gist.githubusercontent.com/samerbuna/5b5305634
 Con performance
 
 `url/?react_perf`
+
+git status
