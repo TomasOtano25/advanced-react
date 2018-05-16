@@ -21,6 +21,7 @@ yarn add --dev eslint eslint-plugin-jest
 yarn add styled-components prop-types
 yarn upgrade-interactive
 yarn add --dev react-addons-perf
+npm install -g now
 ```
 
 ## Package.json
@@ -63,4 +64,27 @@ Con performance
 
 `url/?react_perf`
 
+## Determinar el status de mis registros git
+
 git status
+
+## Numero de nucleos de mi CPU
+
+```bash
+WMIC cpu Get /Format:List
+```
+
+## Comandos pm2
+
+pm2 stop all
+pm2 delete all
+pm2 monit
+pm2 status
+
+## Deploy with now
+
+now --public
+
+
+Retornar a start-prod
+
